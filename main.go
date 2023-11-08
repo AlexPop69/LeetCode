@@ -68,4 +68,8 @@ func main() {
 	//258. Add Digits
 	addNumber := 38 //2
 	fmt.Println(addDigits(addNumber))
+
+	//2652. Sum Multiples
+	toN := 13 //52
+	fmt.Println(sumOfMultiples(toN))
 }
