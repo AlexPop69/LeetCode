@@ -69,6 +69,11 @@ func main() {
 	addNumber := 38 //2
 	fmt.Println(addDigits(addNumber))
 
+	//1528. Shuffle String
+	st := "codeleet"
+	indices := []int{4, 5, 6, 7, 0, 2, 1, 3}
+	fmt.Println(restoreString(st, indices))
+
 	//2652. Sum Multiples
 	toN := 13 //52
 	fmt.Println(sumOfMultiples(toN))
