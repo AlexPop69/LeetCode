@@ -1,8 +1,6 @@
 package main
 
-import (
-	"sort"
-)
+import "sort"
 
 func removeElement(nums []int, val int) int {
 	count := len(nums)
@@ -12,7 +10,7 @@ func removeElement(nums []int, val int) int {
 			count--
 		}
 	}
-
+	//sort.Slice(nums, func(i,j int) bool {return nums[i] < nums[j]})
 	sort.Ints(nums)
 	return count
 }
