@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	//1.TwoSum
@@ -77,4 +79,13 @@ func main() {
 	//2652. Sum Multiples
 	toN := 13 //52
 	fmt.Println(sumOfMultiples(toN))
+
+	//1816. Truncate Sentence (2 variants)
+	string1 := "chopper is not a tanuki"
+	k := 2
+	fmt.Println(truncateSentence(string1, k))
+
+	string1 = "Hello how are you Contestant"
+	k = 4
+	fmt.Println(truncateSentence1(string1, k))
 }
