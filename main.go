@@ -84,8 +84,11 @@ func main() {
 	string1 := "chopper is not a tanuki"
 	k := 2
 	fmt.Println(truncateSentence(string1, k))
-
 	string1 = "Hello how are you Contestant"
 	k = 4
 	fmt.Println(truncateSentence1(string1, k))
+
+	//1929. Concatenation of Array
+	notAns := []int{1, 2, 1}
+	fmt.Println(getConcatenation(notAns))
 }
