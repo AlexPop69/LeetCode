@@ -76,6 +76,10 @@ func main() {
 	indices := []int{4, 5, 6, 7, 0, 2, 1, 3}
 	fmt.Println(restoreString(st, indices))
 
+	//2469. Convert the Temperature
+	celsius := 36.6
+	fmt.Println(convertTemperature(celsius))
+
 	//2652. Sum Multiples
 	toN := 13 //52
 	fmt.Println(sumOfMultiples(toN))
