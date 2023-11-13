@@ -62,14 +62,17 @@ func main() {
 	t := "nagaram"
 	fmt.Println(isAnagram(s, t))
 
+	//258. Add Digits
+	addNumber := 38 //2
+	fmt.Println(addDigits(addNumber))
+
 	//344. Reverse String
 	reversStr := []byte{'h', 'e', 'l', 'l', 'o'}
 	reverseString(reversStr)
 	fmt.Println(string(reversStr))
 
-	//258. Add Digits
-	addNumber := 38 //2
-	fmt.Println(addDigits(addNumber))
+	//771. Jewels and Stones
+	fmt.Println(numJewelsInStones("aA", "aAAbbbb")) //3
 
 	//1528. Shuffle String
 	st := "codeleet"
