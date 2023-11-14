@@ -101,4 +101,7 @@ func main() {
 	//1929. Concatenation of Array
 	notAns := []int{1, 2, 1}
 	fmt.Println(getConcatenation(notAns))
+
+	//2413. Smallest Even Multiple
+	fmt.Println(smallestEvenMultiple(6))
 }
