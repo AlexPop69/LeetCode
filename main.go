@@ -74,6 +74,9 @@ func main() {
 	//771. Jewels and Stones
 	fmt.Println(numJewelsInStones("aA", "aAAbbbb")) //3
 
+	//1480. Running Sum of 1d Array
+	fmt.Println(runningSum([]int{1, 2, 3, 4}))
+
 	//1528. Shuffle String
 	st := "codeleet"
 	indices := []int{4, 5, 6, 7, 0, 2, 1, 3}
