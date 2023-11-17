@@ -74,6 +74,9 @@ func main() {
 	//771. Jewels and Stones
 	fmt.Println(numJewelsInStones("aA", "aAAbbbb")) //3
 
+	//1365. How Many Numbers Are Smaller Than the Current Number
+	fmt.Println(smallerNumbersThanCurrent([]int{8, 1, 2, 2, 3})) //4,0,1,1,3
+
 	//1480. Running Sum of 1d Array
 	fmt.Println(runningSum([]int{1, 2, 3, 4}))
 
@@ -107,4 +110,5 @@ func main() {
 
 	//2413. Smallest Even Multiple
 	fmt.Println(smallestEvenMultiple(6))
+
 }
