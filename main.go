@@ -108,6 +108,13 @@ func main() {
 	notAns := []int{1, 2, 1}
 	fmt.Println(getConcatenation(notAns))
 
+	//2114. Maximum Number of Words Found in Sentences
+	fmt.Println(mostWordsFound([]string{
+		"alice and bob love leetcode",
+		"i think so too",
+		"this is great thanks very much",
+	})) //6
+
 	//2413. Smallest Even Multiple
 	fmt.Println(smallestEvenMultiple(6))
 
