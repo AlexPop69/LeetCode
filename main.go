@@ -103,13 +103,6 @@ func main() {
 	//2011. Final Value of Variable After Performing Operations
 	var aS = []string{"++x", "x++", "x--", "x++"}
 	fmt.Println(finalValueAfterOperations(aS))
-	//2469. Convert the Temperature
-	celsius := 36.6
-	fmt.Println(convertTemperature(celsius))
-
-	//2652. Sum Multiples
-	toN := 13 //52
-	fmt.Println(sumOfMultiples(toN))
 
 	//2114. Maximum Number of Words Found in Sentences
 	fmt.Println(mostWordsFound([]string{
@@ -120,5 +113,16 @@ func main() {
 
 	//2413. Smallest Even Multiple
 	fmt.Println(smallestEvenMultiple(6))
+
+	//2469. Convert the Temperature
+	celsius := 36.6
+	fmt.Println(convertTemperature(celsius))
+
+	//2574. Left and Right Sum Differences
+	fmt.Println(leftRightDifference([]int{10, 4, 8, 3}))
+
+	//2652. Sum Multiples
+	toN := 13 //52
+	fmt.Println(sumOfMultiples(toN))
 
 }
