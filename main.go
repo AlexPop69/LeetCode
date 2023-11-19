@@ -8,16 +8,16 @@ func main() {
 	//1.TwoSum
 	nums := []int{0, 4, 3, 0}
 	target := 0
-	fmt.Println(twoSum(nums, target))
+	fmt.Printf("TwoSum of %v with target %d is %v\n", nums, target, twoSum(nums, target))
 
 	//9.Palindrome Numbder
 	number := 1221
-	fmt.Println(isPalindrome(number))
+	fmt.Printf("Palindrome Numbder: %d is %v\n", number, isPalindrome(number))
 
 	//27. Remove Element
 	var numbers = []int{1, 2, 3, 4, 5}
 	el := 3
-	fmt.Printf("%v, nums= %v", removeElement(numbers, el), numbers)
+	fmt.Printf("Remove %v from %v. Result: %v\n", el, numbers, removeElement(numbers, el))
 
 	//28. Find the Index of the First Occurrence in a String
 	haystack := "leetcode"
@@ -65,6 +65,11 @@ func main() {
 	//258. Add Digits
 	addNumber := 38 //2
 	fmt.Println(addDigits(addNumber))
+
+	//283. Move Zeroes
+	var forMoveZeroes = []int{0, 1, 0, 3, 12}
+	moveZeroes(forMoveZeroes)
+	fmt.Println(forMoveZeroes) //1,3,12,0,0
 
 	//344. Reverse String
 	reversStr := []byte{'h', 'e', 'l', 'l', 'o'}
