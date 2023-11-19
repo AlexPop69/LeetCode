@@ -74,6 +74,9 @@ func main() {
 	//771. Jewels and Stones
 	fmt.Println(numJewelsInStones("aA", "aAAbbbb")) //3
 
+	//1281. Subtract the Product and Sum of Digits of an Integer
+	fmt.Println(subtractProductAndSum(234))
+
 	//1365. How Many Numbers Are Smaller Than the Current Number
 	fmt.Println(smallerNumbersThanCurrent([]int{8, 1, 2, 2, 3})) //4,0,1,1,3
 
@@ -84,17 +87,6 @@ func main() {
 	st := "codeleet"
 	indices := []int{4, 5, 6, 7, 0, 2, 1, 3}
 	fmt.Println(restoreString(st, indices))
-
-	//2011. Final Value of Variable After Performing Operations
-	var aS = []string{"++x", "x++", "x--", "x++"}
-	fmt.Println(finalValueAfterOperations(aS))
-	//2469. Convert the Temperature
-	celsius := 36.6
-	fmt.Println(convertTemperature(celsius))
-
-	//2652. Sum Multiples
-	toN := 13 //52
-	fmt.Println(sumOfMultiples(toN))
 
 	//1816. Truncate Sentence (2 variants)
 	string1 := "chopper is not a tanuki"
@@ -107,6 +99,17 @@ func main() {
 	//1929. Concatenation of Array
 	notAns := []int{1, 2, 1}
 	fmt.Println(getConcatenation(notAns))
+
+	//2011. Final Value of Variable After Performing Operations
+	var aS = []string{"++x", "x++", "x--", "x++"}
+	fmt.Println(finalValueAfterOperations(aS))
+	//2469. Convert the Temperature
+	celsius := 36.6
+	fmt.Println(convertTemperature(celsius))
+
+	//2652. Sum Multiples
+	toN := 13 //52
+	fmt.Println(sumOfMultiples(toN))
 
 	//2114. Maximum Number of Words Found in Sentences
 	fmt.Println(mostWordsFound([]string{
