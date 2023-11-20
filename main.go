@@ -22,6 +22,9 @@ func main() {
 	el := 3
 	fmt.Printf("Remove %v from %v. Result: %v\n", el, numbers, removeElement(numbers, el))
 
+	//26. Remove Duplicates from Sorted Array
+	fmt.Println(removeDuplicates([]int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}))
+
 	//28. Find the Index of the First Occurrence in a String
 	haystack := "leetcode"
 	needle := "leeto"
