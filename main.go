@@ -14,6 +14,9 @@ func main() {
 	number := 1221
 	fmt.Printf("Palindrome Numbder: %d is %v\n", number, isPalindrome(number))
 
+	//13. Roman to Integer
+	fmt.Println(romanToInt("MCMXCIV")) // 1994
+
 	//27. Remove Element
 	var numbers = []int{1, 2, 3, 4, 5}
 	el := 3
