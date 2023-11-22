@@ -4,7 +4,7 @@ import (
 	"strconv"
 )
 
-func isPalindrome(x int) bool {
+func isPalindromeNumber(x int) bool {
 	strX := strconv.Itoa(x)
 	var s []rune
 
