@@ -45,7 +45,12 @@ func main() {
 
 	//69. Sqrt(x)
 	x := 8
-	fmt.Println(mySqrt(x))
+	fmt.Printf("%d after sqrt is %d\n", x, mySqrt(x))
+
+	//88. Merge Sorted Array
+	mer1, merM, mer2, merN := []int{1, 2, 3, 0, 0, 0}, 3, []int{2, 5, 6}, 3
+	merge(mer1, merM, mer2, merN)
+	fmt.Printf("Merged and sorted two arrays: %v\n", mer1)
 
 	//136. Single Number
 	digit := []int{1, 2, 4, -1, 3, 2, 4, 1, 3}
