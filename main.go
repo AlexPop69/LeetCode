@@ -12,7 +12,7 @@ func main() {
 
 	//9.Palindrome Numbder
 	number := 1221
-	fmt.Printf("Palindrome Numbder: %d is %v\n", number, isPalindrome(number))
+	fmt.Printf("Palindrome Numbder: %d is %v\n", number, isPalindromeNumber(number))
 
 	//13. Roman to Integer
 	fmt.Println(romanToInt("MCMXCIV")) // 1994
@@ -51,6 +51,10 @@ func main() {
 	mer1, merM, mer2, merN := []int{1, 2, 3, 0, 0, 0}, 3, []int{2, 5, 6}, 3
 	merge(mer1, merM, mer2, merN)
 	fmt.Printf("Merged and sorted two arrays: %v\n", mer1)
+
+	//125. Valid Palindrome
+	strForPalindrome := "A man, a plan, a canal: Panama"
+	fmt.Printf("\"%s\" is %b palindrome", strForPalindrome, isPalindrome(strForPalindrome))
 
 	//136. Single Number
 	digit := []int{1, 2, 4, -1, 3, 2, 4, 1, 3}
