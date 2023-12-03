@@ -53,7 +53,7 @@ func main() {
 	fmt.Printf("88: Merged and sorted two arrays: %v\n", mer1)
 
 	//125. Valid Palindrome
-	strForPalindrome := "A man, a plan, a canal: Panama"
+	strForPalindrome := ".a"
 	fmt.Printf("125: \"%s\" is %v palindrome\n", strForPalindrome, isPalindrome(strForPalindrome))
 
 	//136. Single Number
@@ -99,6 +99,9 @@ func main() {
 
 	//1365. How Many Numbers Are Smaller Than the Current Number
 	fmt.Println(smallerNumbersThanCurrent([]int{8, 1, 2, 2, 3})) //4,0,1,1,3
+
+	//1431. Kids With the Greatest Number of Candies
+	fmt.Printf("1431: %v\n", kidsWithCandies([]int{2, 3, 5, 1, 3}, 3)) //[true,true,true,false,true]
 
 	//1480. Running Sum of 1d Array
 	fmt.Println(runningSum([]int{1, 2, 3, 4}))
