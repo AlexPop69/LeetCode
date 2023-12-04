@@ -119,6 +119,9 @@ func main() {
 	k = 4
 	fmt.Println(truncateSentence1(string1, k))
 
+	//1859. Sorting the Sentence
+	fmt.Printf("1859. Sorting the Sentence: %s\n", sortSentence("sentence4 a3 is2 This1"))
+
 	//1929. Concatenation of Array
 	notAns := []int{1, 2, 1}
 	fmt.Println(getConcatenation(notAns))
